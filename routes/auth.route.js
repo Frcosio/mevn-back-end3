@@ -3,7 +3,7 @@ import { infouser, login, register, refreshToken, logout } from "../controllers/
 import { body } from "express-validator";
 import { validationResultExpress } from "../middlewares/validationResultExpress.js";
 import { requireToken } from "../middlewares/requireToken.js";
-import { requireRefreshToken } from "../middlewares/requirerefreshToken.js";
+import { requireRefreshToken } from "../middlewares/requireRefreshToken.js";
 import { bodyLoginValidator, bodyRegisterValidator } from "../middlewares/validatorManager.js";
 const router = express.Router();
 
